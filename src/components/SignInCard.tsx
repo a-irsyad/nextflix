@@ -76,6 +76,9 @@ export const SignInCard = () => {
           {formMode === "sign in" ? "Create an account" : "Sign in"}
         </span>
       </p>
+
+      {/* version */}
+      <p className="text-zinc-600 text-right">v.1</p>
     </div>
   );
 };
